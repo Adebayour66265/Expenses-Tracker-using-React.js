@@ -1,0 +1,45 @@
+.new-expense_controls {
+  width: 70%;
+  height: 45vh;
+  background-color: blueviolet;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+.new-expense_control,
+.new-expense_controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+}
+.new-expense_control label,
+.new-expense_controls label {
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+}
+.new-expense_control input,
+.new-expense_controls input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  margin: 0.3rem 0;
+  padding: 0 10px;
+}
+button {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  align-items: flex-end;
+  margin: 1px auto;
+  outline: none;
+  border: 2px solid #fff;
+}
